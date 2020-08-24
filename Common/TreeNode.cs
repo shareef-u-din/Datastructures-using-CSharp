@@ -4,19 +4,19 @@ namespace Datastructures.Common
   /// <summary>
   /// Node class with left, right and value properties
   ///</summary>
-  public class Node
+  public class TreeNode
   {
-    int _data;
-    Node _left;
-    Node _right;
+    private int _data;
+    private TreeNode _left;
+    private TreeNode _right;
 
-    public Node Right
+    public TreeNode Right
     {
       get { return this._right; }
       set { this._right = value; }
     }
 
-    public Node Left
+    public TreeNode Left
     {
       get { return this._left; }
       set { this._left = value; }
@@ -31,7 +31,7 @@ namespace Datastructures.Common
     /// <returns> return Node instance with Value set to val passed,
     /// left and right references set to bull
     /// </returns>
-    public Node(int val)
+    public TreeNode(int val)
     {
       this.Value = val;
       this.Right = null;
