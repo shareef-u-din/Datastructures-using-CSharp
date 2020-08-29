@@ -9,6 +9,8 @@ namespace Datastructures
   {
     static void Main(string[] args)
     {
+      /**/
+      /* Stream Checker */
       // string[] arr = { "cd", "f", "kl" };
       // StreamChecker stream = new StreamChecker(arr);
 
@@ -18,13 +20,14 @@ namespace Datastructures
       //   bool x = stream.Query(c);
       // }
 
-      Tree tree = new Tree(3);
+      /* Tree Left Leaves Sum */
+      // Tree tree = new Tree(3);
+      // TreeNode treeNode = tree.AddLeft(tree.Root, 9);
+      // treeNode = tree.AddRight(tree.Root, 20);
+      // tree.AddLeft(treeNode, 15);
+      // tree.AddRight(treeNode, 7);
+      // TreeOperations.SumOfLeftLeaves(tree.Root);
 
-      TreeNode treeNode = tree.AddLeft(tree.Root, 9);
-      treeNode = tree.AddRight(tree.Root, 20);
-      tree.AddLeft(treeNode, 15);
-      tree.AddRight(treeNode, 7);
-      TreeOperations.SumOfLeftLeaves(tree.Root);
       Console.Read();
     }
   }
